@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #f5f5f5;
+  }
+  img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+  
+  header {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  h1, h2 {
+    margin: 0.5rem 0;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+  }
+  
+  .experience, .education, .skills {
+    padding: 1.5rem;
+  }
+  
+  .job, .degree {
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Media Queries (Responsiveness) */
+  
+  @media only screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    main {
+      padding: 1rem;
+    }
+  
+    section {
+      width: 100%;
+      max-width: none;
+    }
+  }
+  .hidden{
+    display: none;
+  }
+  .show{
+    display: block;
+  }
+.toggle-button{
+    background-color: #333;
+    color: white;
+    width: 90px;
+    height: 30px;
+}
